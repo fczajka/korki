@@ -1,0 +1,16 @@
+biblipoteka fstream
+
+fstream - zapis i odczyt
+ofstream - zapis
+ifstream - odczyt
+
+funkcja open:
+
+plik.open("nazwa_pliku", tryb_otwarcia);
+tryby 
+ios:in - odczyt
+ios::out - zapis
+ios::app - zapis, sterowanie na koncu - dopisywanie do pliku
+ios::binary - dane traktowane jako binarne
+
+plik.close()

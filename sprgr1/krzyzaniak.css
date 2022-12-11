@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.naglowek {
+    background-color: #ABCDEF;
+    text-align: center;
+    height: 100px;
+}
+
+.zawartosc {
+    width: 70%;
+    height: 800px;
+    background-color: lightblue;
+}
+
+.glowny {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.prawy {
+    width: 30%;
+    background-color: orange;
+}
+
+.dolny {
+    height: 150px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.stopka {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    color: blue;
+    text-align: center;
+}
+
+td {
+    height: 30px;
+}
+
+
